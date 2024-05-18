@@ -8,7 +8,7 @@ namespace lab5
 {
     public class Buyer
     {
-        public sbyte Age { get; set; } /// потому что ну допустим вдруг кому-то больше 130 лет
+        public sbyte Age { get; set; } /// ну допустим, что максимум люди доживают до 127
 
         public Buyer(sbyte age)
         {
